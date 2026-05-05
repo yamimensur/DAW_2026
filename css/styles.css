@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+
+    }
+
+    header {
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 700;
+    }
+
+    .logo img {
+      max-width: 150px;
+      height: auto;
+      display: block;
+    }
+
+    nav a {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #f15a08;
+    font-family: 'Space Mono',monospace;
+    text-decoration: none;
+    margin-left: 20px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .seccion{
+    height: 18px;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+    font-family: 'Space Mono',monospace;
+    color: #fff;
+    background: #f15a08;
+    padding: 0 5px;
+    display: inline-block;
+    }
+
+    .info-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+    }
+
+    .info-meta .seccion {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    }
+
+    .info-meta time {
+        font-size: 12px;
+        color: #666;
+    }
+
+    .titulo {
+        text-align: left;
+        font-size: 40px;
+        font-weight: bold;
+
+    }
+
+    .page-layout {
+        max-width: 1180px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 320px;
+        gap: 40px;
+        align-items: start;
+    }
+
+    .article-content {
+        max-width: 760px;
+    }
+
+    .article-content img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .article-content figure {
+        margin: 28px 0;
+    }
+
+    .article-content figcaption {
+        margin-top: 8px;
+        color: #666;
+        font-size: 14px;
+    }
+
+    .sidebar {
+        border-top: 3px solid #f15a08;
+        padding-top: 12px;
+    }
+
+    .sidebar h3 {
+        margin: 0 0 10px;
+        font-family: 'Space Mono', monospace;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #f15a08;
+    }
+
+    .ranking {
+        margin: 0;
+        padding-left: 22px;
+    }
+
+    .ranking li {
+        padding: 8px 0;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .ranking a {
+        color: #222;
+        font-size: 15px;
+        line-height: 1.4;
+        text-decoration: none;
+    }
+
+    .ranking a:hover {
+        text-decoration: underline;
+    }
