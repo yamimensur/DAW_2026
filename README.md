@@ -21,11 +21,14 @@ URL: https://www.rosario3.com/informaciongeneral/en-que-pais-de-europa-pueden-mu
 Archivo: `ejercicios/index_ej5.html`
 URL: https://www.rosario3.com/informaciongeneral/semana-clave-para-las-universidades-rosario-se-prepara-para-una-nueva-marcha-federal-20260510-0028.html
 
+## Trabajo Practico Nro. 1 - Flexbox
+Archivo: `tp1-flexbox/index.html`
+GitHub Pages: https://yamimensur.github.io/DAW_2026/tp1-flexbox/
+
 ## Organizacion de archivos
 - `css/`: hojas de estilo.
 - `img/`: imagenes utilizadas en los ejercicios.
 - `ejercicios/`: archivos HTML de las actividades.
 
 ⚠️**README en construcción**⚠️
-
 

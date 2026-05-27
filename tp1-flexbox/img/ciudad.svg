@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="Avenida de ciudad">
+  <rect width="900" height="520" fill="#f4f4f4"/>
+  <rect y="330" width="900" height="190" fill="#2f2f2f"/>
+  <rect x="70" y="95" width="145" height="240" fill="#d9d9d9"/>
+  <rect x="250" y="55" width="120" height="280" fill="#c8d7df"/>
+  <rect x="420" y="125" width="155" height="210" fill="#e1ded6"/>
+  <rect x="640" y="75" width="135" height="260" fill="#d0d0d0"/>
+  <path d="M440 520 L520 330 H380 L300 520 Z" fill="#444"/>
+  <path d="M445 365 L455 365 M430 410 L470 410 M410 465 L490 465" stroke="#f15a08" stroke-width="8"/>
+  <circle cx="165" cy="370" r="28" fill="#f15a08"/>
+  <rect x="150" y="398" width="30" height="72" fill="#222"/>
+  <circle cx="705" cy="370" r="28" fill="#111"/>
+  <rect x="690" y="398" width="30" height="72" fill="#f15a08"/>
+  <g fill="#fff">
+    <rect x="95" y="125" width="26" height="28"/>
+    <rect x="145" y="125" width="26" height="28"/>
+    <rect x="95" y="180" width="26" height="28"/>
+    <rect x="145" y="180" width="26" height="28"/>
+    <rect x="280" y="95" width="22" height="26"/>
+    <rect x="325" y="95" width="22" height="26"/>
+    <rect x="280" y="150" width="22" height="26"/>
+    <rect x="325" y="150" width="22" height="26"/>
+  </g>
+</svg>

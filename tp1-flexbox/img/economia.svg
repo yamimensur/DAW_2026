@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 190" role="img" aria-label="Economia">
+  <rect width="300" height="190" fill="#f4f4f4"/>
+  <rect x="35" y="115" width="36" height="45" fill="#f15a08"/>
+  <rect x="95" y="85" width="36" height="75" fill="#222"/>
+  <rect x="155" y="55" width="36" height="105" fill="#f15a08"/>
+  <rect x="215" y="35" width="36" height="125" fill="#222"/>
+  <polyline points="35,78 95,62 155,70 235,28" fill="none" stroke="#777" stroke-width="8"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 190" role="img" aria-label="Deportes">
+  <rect width="300" height="190" fill="#ececec"/>
+  <rect y="115" width="300" height="75" fill="#444"/>
+  <circle cx="150" cy="94" r="52" fill="#f15a08"/>
+  <path d="M98 94 H202 M150 42 V146 M114 58 C135 80 165 80 186 58 M114 130 C135 108 165 108 186 130" fill="none" stroke="#fff" stroke-width="7"/>
+</svg>
