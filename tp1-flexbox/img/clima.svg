@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 190" role="img" aria-label="Clima">
+  <rect width="300" height="190" fill="#e7eef2"/>
+  <circle cx="92" cy="72" r="36" fill="#f15a08"/>
+  <path d="M93 135 H218 C238 135 252 122 252 104 C252 87 238 75 220 75 C210 52 188 38 162 43 C143 47 129 60 122 78 C102 80 86 92 86 109 C86 124 98 135 93 135 Z" fill="#fff" stroke="#d0d0d0" stroke-width="4"/>
+  <rect x="35" y="150" width="230" height="18" fill="#222"/>
+</svg>

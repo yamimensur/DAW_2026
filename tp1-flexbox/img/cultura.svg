@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 190" role="img" aria-label="Cultura">
+  <rect width="300" height="190" fill="#222"/>
+  <polygon points="20,190 105,20 130,190" fill="#f15a08" opacity=".9"/>
+  <polygon points="170,190 195,20 280,190" fill="#d9d9d9" opacity=".8"/>
+  <rect x="65" y="128" width="170" height="34" fill="#fff"/>
+  <circle cx="110" cy="95" r="18" fill="#fff"/>
+  <circle cx="190" cy="95" r="18" fill="#f15a08"/>
+</svg>
