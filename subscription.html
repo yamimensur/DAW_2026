@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscripcion | Rosario3</title>
+    <link rel="stylesheet" href="css/subscription.css">
+    <script src="js/subscription.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="img/r3-logo.svg" alt="Rosario3" width="150" height="30">
+        </div>
+        <nav>
+            <a href="ejercicios/index_ej5.html" title="Ultimas noticias">Ultimas noticias</a>
+            <a href="#" title="Ciudad">Ciudad</a>
+            <a href="#" title="Region">Region</a>
+            <a href="#" title="Policiales">Policiales</a>
+            <a href="#" title="Deportes">Deportes</a>
+            <a href="#" title="Ocio">Ocio</a>
+            <a href="#" title="Videos">Videos</a>
+        </nav>
+        <button class="nav-toggle" aria-label="Abrir menu">Menu</button>
+    </header>
+
+    <main class="subscription-layout">
+        <section class="subscription-content">
+            <div class="info-meta">
+                <span class="seccion">Suscripcion</span>
+                <time>Lectores Rosario3</time>
+            </div>
+
+            <h1 id="titulo-formulario" class="titulo">HOLA</h1>
+            <p class="bajada">Completa tus datos para recibir novedades del diario online.</p>
+
+            <form id="form-suscripcion" novalidate>
+                <div class="form-group">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre">
+                    <p class="error" id="error-nombre"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                    <p class="error" id="error-email"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Contrasena</label>
+                    <input type="password" id="password" name="password">
+                    <p class="error" id="error-password"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="repetirPassword">Repetir contrasena</label>
+                    <input type="password" id="repetirPassword" name="repetirPassword">
+                    <p class="error" id="error-repetirPassword"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="edad">Edad</label>
+                    <input type="number" id="edad" name="edad">
+                    <p class="error" id="error-edad"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefono">Telefono</label>
+                    <input type="text" id="telefono" name="telefono">
+                    <p class="error" id="error-telefono"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="direccion">Direccion</label>
+                    <input type="text" id="direccion" name="direccion">
+                    <p class="error" id="error-direccion"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="ciudad">Ciudad</label>
+                    <input type="text" id="ciudad" name="ciudad">
+                    <p class="error" id="error-ciudad"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="codigoPostal">Codigo postal</label>
+                    <input type="text" id="codigoPostal" name="codigoPostal">
+                    <p class="error" id="error-codigoPostal"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="dni">DNI</label>
+                    <input type="text" id="dni" name="dni">
+                    <p class="error" id="error-dni"></p>
+                </div>
+
+                <div class="submit-container">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+
+        <aside class="sidebar">
+            <h3>Mas vistas</h3>
+            <ol class="ranking">
+                <li><a href="#">Denuncian penalmente a Carolina Losada por su proyecto sobre falsas denuncias</a></li>
+                <li><a href="#">Rescataron a dos mujeres atrapadas en un ascensor en pleno centro de Rosario</a></li>
+                <li><a href="#">Paro bancario nacional: como afectara a Rosario</a></li>
+                <li><a href="#">El Gobierno formalizo la privatizacion de Transener</a></li>
+                <li><a href="#">Record de morosos: como conocer el propio historial de deudas</a></li>
+            </ol>
+        </aside>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <img src="img/r3-logo.svg" alt="Rosario3" class="footer-logo">
+            <p>Juan Domingo Peron 8101, Rosario - Tel: 4575415, interno 525</p>
+            <nav class="footer-nav">
+                <a href="#">Quienes somos</a>
+                <a href="#">Terminos y Condiciones</a>
+                <a href="#">Ayuda</a>
+                <a href="#">Contacto</a>
+            </nav>
+            <p class="footer-copy">&copy; Copyright 2026 Rosario 3. Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+</body>
+</html>
