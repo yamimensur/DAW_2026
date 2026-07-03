@@ -25,6 +25,10 @@ URL: https://www.rosario3.com/informaciongeneral/semana-clave-para-las-universid
 Archivo: `tp1-flexbox/index.html`
 GitHub Pages: https://yamimensur.github.io/DAW_2026/tp1-flexbox/
 
+## Clase 11 - API REST
+Archivo: `clase11/index.html`
+GitHub Pages: https://yamimensur.github.io/DAW_2026/clase11/
+
 ## Organizacion de archivos
 - `css/`: hojas de estilo.
 - `img/`: imagenes utilizadas en los ejercicios.

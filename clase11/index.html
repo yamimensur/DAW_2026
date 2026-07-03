@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 11 - Rick and Morty API</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Rick and Morty API</h1>
+        </div>
+        <nav>
+            <a href="../README.md">README</a>
+            <a href="https://rickandmortyapi.com/documentation/#filter-characters" target="_blank">Documentacion</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="presentacion">
+            <span class="seccion">Clase 11</span>
+            <h2>Listado de personajes</h2>
+            <p>Pagina para consultar personajes desde la API REST de Rick and Morty.</p>
+            <button id="btn-todos" type="button">Obtener todos los personajes</button>
+        </section>
+
+        <section class="filtros">
+            <h2>Buscar con filtros</h2>
+            <form id="form-filtros">
+                <div class="campo">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Ej: Rick">
+                </div>
+
+                <div class="campo">
+                    <label for="status">Status</label>
+                    <input type="text" id="status" name="status" placeholder="alive, dead o unknown">
+                </div>
+
+                <div class="campo">
+                    <label for="species">Species</label>
+                    <input type="text" id="species" name="species" placeholder="Ej: human">
+                </div>
+
+                <div class="campo">
+                    <label for="type">Type</label>
+                    <input type="text" id="type" name="type" placeholder="Ej: clone">
+                </div>
+
+                <div class="campo">
+                    <label for="gender">Gender</label>
+                    <input type="text" id="gender" name="gender" placeholder="female, male, genderless o unknown">
+                </div>
+
+                <button type="submit">Buscar personajes</button>
+            </form>
+        </section>
+
+        <section class="resultado">
+            <div class="resultado-titulo">
+                <h2>Resultado</h2>
+                <p id="cantidad">Todavia no se hizo ninguna busqueda.</p>
+            </div>
+
+            <div id="mensaje"></div>
+            <div id="personajes" class="personajes"></div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
